@@ -18,11 +18,15 @@
    ```bash
    go mod tidy
    ```
-5. 啟動server：
+5. 安裝localhost憑證
+   ```bash
+   openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 365 -nodes -subj "/CN=localhost"
+   ```
+6. 啟動server：
    ```bash
    go run main.go
    ```
-6. Check `https://localhost:443`。
+7. Check `https://localhost:443`。
 
 ## 漏洞點與已知漏洞
 
