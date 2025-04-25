@@ -6,7 +6,7 @@
 
 ## 安裝方式
 1. 確保已安裝Go語言環境。
-2. 克隆此存儲庫到本地：
+2. clone repo：
    ```bash
    git clone https://github.com/0xbc000/Bad_Ecommerce
    ```
