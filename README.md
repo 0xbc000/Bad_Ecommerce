@@ -14,15 +14,15 @@
    ```bash
    cd bad_ecommerce
    ```
-4. 初始化Go模塊並安裝依賴：
+4. 初始化Go module並安裝dependency：
    ```bash
    go mod tidy
    ```
-5. 啟動服務器：
+5. 啟動server：
    ```bash
    go run main.go
    ```
-6. 在瀏覽器中訪問 `https://localhost:443`。
+6. Check `https://localhost:443`。
 
 ## 漏洞點與已知漏洞
 
